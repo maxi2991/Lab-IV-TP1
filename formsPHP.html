@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet"  href="baseStyle.css"/>
+    <meta charset="UTF-8">
+    <title>Bienvenidos a mi web</title>
+</head>
+
+<body>
+    
+    <form action="action.php" method="post">
+        <h1>Contact form: </h1>
+        <div>
+            <h2>Your Basic info:</h2>
+            <h3>Name:</h3>
+            <input type="text" name="Name" placeholder="Your Name"><br>
+            <h3>Email:</h3>
+            <input type="text" name="Email" placeholder="Your email"><br>
+            <h3>PassWord:</h3>
+            <input type="password" name="Password" placeholder="Your password"><br>
+            <h3>Birthday:</h3>
+            <input type="text" name="Birthday" placeholder="dd/mm/aa"><br>
+            <h3>Sex: </h3>
+            <input type="radio" name="Sex: " value="Male"> Male
+            <input type="radio" name="Sex: " value="Female"> Female
+        </div>
+        <div>
+            <h2>Your Profile:</h2>
+            <h3>About you: </h3>
+            <textarea name="comments" cols=40 rows="5"></textarea>
+            <h3>Role: </h3>
+            <select name="roles">
+                <option value="Front-End Developer">Front-End Developer</option>
+                <option value="Back-End Developer">Back-End Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+            </select>
+            <h3>Interests:</h3>
+            <input type="checkbox" name="interest1" value="DataBase">DataBase
+            <input type="checkbox" name="interest2" value="Desing">Desing
+            <input type="checkbox" name="interest3" value="Business">Business
+            <input type="checkbox" name="interest4" value="Unit Test">Unit Test <br>
+            <input type="checkbox" name="interest5" value="Cloud development">Cloud develompment
+            <input type="checkbox" name="interest6" value="web develompment"> web develompment
+
+
+        </div>
+        <br>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+
+</html>
